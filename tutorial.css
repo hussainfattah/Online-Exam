@@ -1,0 +1,182 @@
+* {
+margin:0;
+padding:0
+}
+body{
+font-family:arial;
+font-size:16px;
+line-height:22px;
+color:#666;
+background:url(z.jpg) fixed repeat;
+}
+.fix{
+
+}
+.main{
+width:960px;
+margin:25px auto;
+display:block;
+background:#081F2C
+}
+
+.header_class{
+background:url(header.jpg) repeat;
+position: relative;
+height:250px;
+}
+.header{
+margin-left:40px;
+float:left;
+width:60%;
+color:white;
+margin-top:25px;
+}
+.panel{
+position:absolute;
+width:30%;
+margin-top:30px;
+}
+.panel a{
+padding:5px 11px;
+margin-left:650px;
+background:black;
+}
+.panel a:hover{
+color:yellow;
+background:green;
+}
+.btn{
+width:30%;
+float:right;
+margin-top:30px;
+}
+.btn a{
+padding:5px 11px;
+margin-left:130px;
+background:black;
+}
+.btn a:hover{
+color:yellow;
+background:green;
+}
+.button{
+border-radius:5px;
+border: 2px solid #6495ED;
+text-decoration:none;
+color:white;
+}
+.maincontent {
+margin-top:10px;
+margin-bottom:10px;
+color:white;
+}
+.maincontent p{
+margin:10px;
+padding:10px;
+background:black;
+}
+nav ul {
+	margin-left:10px;
+	margin-right:10px;
+	background: #efefef;
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+}
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul {
+	background: #efefef;
+	padding: 0 64px;
+	border-radius: 10px;  
+	list-style: none;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav ul li {
+	float: left;
+	
+}
+nav ul li:hover {
+	background: #4b545f;
+}
+nav ul li:hover a {
+	color: #fff;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 58px;
+	color: #757575; 
+	text-decoration: none;
+}
+nav ul ul {
+	background: #5f6975; 
+	border-radius: 0px; 
+	padding: 0;
+	margin-left:0px;
+	position: absolute; 
+	top: 100%;
+}
+nav ul ul li {
+	float: none;
+	padding:0px;
+	margin-right:10px;
+}
+nav ul ul li a {
+	padding: 5px 26px;
+	color: #fff;
+}
+nav ul ul li a:hover {
+	background: black;
+	margin-right:-10px;
+}
+#sub{
+z-index:9999;
+}
+.tutorial{
+width:960px;
+}
+.sidebar2 {
+float:right;
+width:180px;
+background:#EDEDED;
+padding:5px 10px;
+color:black;
+margin-right:10px;
+}
+.sidebar2 ul {margin:0;padding:0;list-style:none}
+.sidebar2 ul li{padding:13px;
+border-bottom:3px solid #ddd;
+background-color:#00013A;
+margin-left:-5px;
+margin-right:-5px;
+font-size:17px;
+}
+.sidebar2 ul li a{text-decoration:none;color:white}
+.sidebar2 ul li a:hover{color:yellow}
+.video{
+margin-bottom:15px;
+}
+
+.ee{
+width:960px;
+margin-left:10px;
+color:white;
+}
+
+.video_status{
+
+}
+.footer{
+padding:15px;
+background:black;
+margin-top:50px;
+color:white
+}

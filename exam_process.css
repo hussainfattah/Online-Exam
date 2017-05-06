@@ -1,0 +1,47 @@
+* {
+margin-left:0;
+padding:0;
+}
+body{
+font-family:arial;
+font-size:16px;
+line-height:25px;
+color:white;
+background:url(z.jpg) fixed repeat;
+}
+#button{
+margin-left:423px;
+padding:5px 20px;
+margin-top:12px;
+}
+#exam_form{
+width:960px;
+margin:25px auto;
+display:block;
+background:#081F2C
+}
+#question{
+margin-left:30px;
+padding:5px 10px;
+}
+#dialog{
+background-color:black;
+color:white;
+padding:10px 200px;
+margin-left:40px;
+}
+#new{
+background-color:black;
+margin-right:25px;
+padding-left:20px;
+color:white;
+}
+#submit{
+margin-left:40px;
+}
+.footer{
+padding:15px;
+background:black;
+margin-top:10px;
+color:white;
+}

@@ -1,0 +1,89 @@
+* {
+margin:0;
+padding:0
+}
+body{
+font-family:arial;
+font-size:16px;
+line-height:22px;
+color:#666;
+background:url(z.jpg) fixed repeat;
+}
+.fix{
+overflow:hidden
+}
+.main{
+width:960px;
+margin:25px auto;
+display:block;
+background:#081F2C
+}
+.header_class{
+background:url(header.jpg) repeat;
+position: relative;
+height:250px;
+}
+.header{
+margin-left:40px;
+float:left;
+width:60%;
+color:white;
+margin-top:25px;
+}
+.btn{
+width:30%;
+float:right;
+margin-top:30px;
+}
+.btn a{
+padding:5px 11px;
+margin-left:20px;
+background:black;
+}
+.btn a:hover{
+color:yellow;
+background:green;
+}
+.button{
+border-radius:5px;
+border: 2px solid #6495ED;
+text-decoration:none;
+color:white;
+}
+.maincontent {
+margin-top:10px;
+color:white;
+}
+.sidebar{}
+.sidebar ul{
+list-style:none;
+}
+.sidebar ul li{
+float:left;
+padding:15px 89px;
+background-color:blue;
+font-size:20px;
+margin-left:10px;
+}
+.sidebar ul a li{
+text-decoration:none;
+color:white;
+}
+.sidebar ul a li:hover{
+color:yellow;
+background:green
+}
+.logout{
+background:black;
+color:white;
+margin:10px;
+padding:15px 30px;
+font-size:23px;
+}
+.slider{
+margin:10px;
+}
+.content{margin-right:30px;margin-left:30px}
+.content h2{margin-bottom:5px;font-weight:normal;font-size:40px;padding:30px;color:white}
+.content p{margin-bottom:5px;font-family: 'Lobster', cursive;color:white}
+.footer{padding:15px;background:black;margin-top:10px;color:white}

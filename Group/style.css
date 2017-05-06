@@ -1,0 +1,160 @@
+* {
+margin:0;
+padding:0
+}
+body{
+font-family:arial;
+font-size:16px;
+line-height:22px;
+color:#666;
+background:url(z.jpg) fixed repeat;
+}
+.main{
+width:960px;
+height:800px;
+margin:25px auto;
+display:block;
+background:#081F2C;
+color:white;
+}
+.header_class{
+background:url(header.jpg) repeat;
+position: relative;
+height:250px;
+}
+.header{
+margin-left:40px;
+float:left;
+width:60%;
+color:white;
+margin-top:25px;
+}
+.panel{
+position:absolute;
+width:30%;
+margin-top:30px;
+}
+.panel a{
+padding:5px 11px;
+margin-left:650px;
+background:black;
+}
+.panel a:hover{
+color:yellow;
+background:green;
+}
+.btn{
+width:30%;
+float:right;
+margin-top:30px;
+}
+.btn a{
+padding:5px 11px;
+margin-left:130px;
+background:black;
+}
+.btn a:hover{
+color:yellow;
+background:green;
+}
+.button{
+border-radius:5px;
+border: 2px solid #6495ED;
+text-decoration:none;
+color:white;
+}
+.maincontent {
+margin-top:10px;
+color:white;
+}
+.maincontent p{
+margin:10px;
+padding:10px;
+background:black;
+}
+nav ul {
+	margin-left:10px;
+	margin-right:10px;
+	background: #efefef;
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+}
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul {
+	background: #efefef;
+	padding: 0 65px;
+	border-radius: 10px;  
+	list-style: none;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav ul li {
+	float: left;
+	
+}
+nav ul li:hover {
+	background: #4b545f;
+}
+nav ul li:hover a {
+	color: #fff;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 58px;
+	color: #757575; 
+	text-decoration: none;
+}
+nav ul ul {
+	background: #5f6975; 
+	border-radius: 0px; 
+	padding: 0;
+	margin-left:0px;
+	position: absolute; 
+	top: 100%;
+}
+nav ul ul li {
+	float: none;
+	padding:0px;
+	margin-right:10px;
+}
+nav ul ul li a {
+	padding: 5px 26px;
+	color: #fff;
+}
+nav ul ul li a:hover {
+	background: black;
+	margin-right:-10px;
+}
+#sub{
+z-index:9999;
+}
+
+.status{
+	background:black;
+	padding:10px;
+}
+.single_status h2{
+	font-size:32px;
+}
+.single_status{
+	background:#081F2C;
+	margin-bottom:15px;
+	padding:20px;
+	color:white;
+}
+.footer{
+padding:15px;
+background:black;
+margin-top:2px;
+color:white;
+margin-bottom:10px
+}

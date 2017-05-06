@@ -1,0 +1,6 @@
+* {margin:0;padding:0}
+body{font-family:arial;font-size:16px;line-height:22px;color:#666;background:url(b.JPG) fixed repeat}
+.fix{overflow:hidden}
+.main{width:960px;margin:25px auto;display:block;background:#3878CD;color:white}
+
+.footer{padding:15px;background:white;margin-top:10px;color:black}
